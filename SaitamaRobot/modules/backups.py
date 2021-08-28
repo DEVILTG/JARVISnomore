@@ -342,7 +342,7 @@ def export_data(update, context):
     context.bot.sendDocument(
         current_chat_id,
         document=open("IGRISROBOT{}.backup".format(chat_id), "rb"),
-        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `IGRISROBOT` was specially made for notes.".format(
+        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: `Yumeko` was specially made for notes.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
